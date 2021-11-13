@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- We will make forms in HTML here-->
+    <center><br><hr><h2> BBC - Bhavya's Big Contest is here! 🗸</h2><hr>
+    <img src="images.jfif" alt="Welcome to BBC!">
+    <h4>Fill this form to register yourself in BBC</h4>
+    <hr size="3" noshade>
+    </center>
+    <form action="mailto:bhavya16malhotra@gmail.com" method="post" enctype="text/plain">
+        <label for="c">Country:</label><br>
+        <input type="text" name="c" id="c"> 
+        <br><br>
+        <label for="fn">First Name:</label><br>
+        <input type="text" name="fn" id="fn"> 
+        <br><br>
+        <label for="sn">Last Name:</label><br>
+        <input type="text" name="sn" id="sn"> 
+        <br><br>
+        <label for="eml">E-mail:</label><br>
+        <input type="email" name="eml" id="eml">
+        <br><br>
+        <label for="pw">Enter Password for your Account</label><br>
+        <input type="password" name="pw" id="pw" placeholder="PaSsWoRd">
+        <br><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" name="dob" id="dob" min="1900-01-01" max="2021-09-27">
+        <br><br>
+        
+        <label for="ch">Choose your favourite area of interest: <br></label>
+        <input type="radio" name="ch" id="cp" value="CP"> <!--value is used at backend-->
+        <label for="web">Competitve Programming</label> <br>
+        <input type="radio" name="ch" id="web" value="web">
+        <label for="cp">Web Development</label><br>
+        <input type="radio" name="ch" id="ml" value="ml">
+        <label for="ml">Machine Learning</label> <br>
+        <input type="radio" name="ch" id="cs" value="cs">
+        <label for="cs">Cyber Security</label><br><br>
+
+        <label for="ch">Choose the field you want to enroll in: <br></label>
+        <input type="checkbox" name="ch" id="cp" value="CP"> <!--value is used at backend-->
+        <label for="cp">Competitve Programming</label> <br>
+        <input type="checkbox" name="ch" id="web" value="web">
+        <label for="web">Web Development</label><br>
+        <input type="checkbox" name="ch" id="ml" value="ml">
+        <label for="ml">Machine Learning</label> <br>
+        <input type="checkbox" name="ch" id="cs" value="cs">
+        <label for="cs">Cyber Security</label><br><br>
+        <!--<input type="button" onclick="alert('Hello World!')" value="Click Me!"> -->
+        <label for="file">Upload your <strong>Resume:  &nbsp;</strong></label>
+        <input type="file" name="file" id="file">
+        <br><br>
+        <label for="why">Why do you want to be a part of BBC?</label><br><br>
+        <textarea name="why" id="why" rows="10" cols="100" placeholder="I want to be a part of BBC because..."></textarea>
+        <br><br><br>
+        <label for="pay">Choose the mode of payement to enable registration:<br></label>
+        <select name="pay" id="pay">
+            <option value="Cs">Cash</option>
+            <option value="Net" selected>Net Banking</option>
+            <option value="ptm">Paytm</option>
+            <option value="Gpay">Google Pay</option>
+            <option value="PhPe">Phone Pe</option>
+        </select><br><br>
+        <input type="Reset">
+        <button type="submit"> Click here to Submit </button>
+       
+    </form>
+</body> 
+</html>
